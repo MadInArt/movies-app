@@ -1,0 +1,33 @@
+a,
+a:hover{
+  color:orange;
+}
+
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text{
+  font-size: 2rem;
+}
+#react-logo{
+  color:#00d8ff;
+}
+#imdb-logo{
+  color:#f5de50;
+}
+#footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+@media(min-width: 960px){
+    #movies .col-md-3 .well{
+      height: 390px;
+    }
+    #movies .col-md-3 img{
+      height: 240px;
+    }
+}
